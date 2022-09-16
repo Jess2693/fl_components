@@ -37,6 +37,7 @@ class CustomInputField extends StatelessWidget {
       },
       autovalidateMode: AutovalidateMode.onUserInteraction,
       decoration: InputDecoration(
+        //border: InputBorder(borderSide: ),
         hintText: hintText,
         labelText: labelText,
         helperText: helperText,
